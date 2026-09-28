@@ -2,9 +2,6 @@ import { useMemo, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { PlusCircle, X, Trash } from "lucide-react";
 
-import { Field, FieldGroup } from "@/components/ui/field"
-
-
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -13,7 +10,6 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogClose,
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
